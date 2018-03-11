@@ -96,14 +96,17 @@
     .pushed{
       transition: all 0.4s ease 0s;
     }
+    .logo{
+        width:200px;
+        height:auto;
+    }
     .dynamic-text{
         display:inline-block;
         position: absolute;
         color:white;
-        padding:10px 15px;
+        padding:5px 10px;
         text-align:left;
-        font-size:25px;
-        width:auto;
+        font-size:20px;
     }
   }
 
