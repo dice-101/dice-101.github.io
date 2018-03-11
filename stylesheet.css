@@ -1,6 +1,7 @@
+/* header bs, you know the deal */
+
 .header {
     background-color: black;
-    text-align:center;
     padding: 10px 0px;
     width:100vw;
     height:auto;
@@ -12,11 +13,7 @@
     width:auto;
 }
 
-.icon-menu{
-    color:white;
-}
-
-
+/* begin sidebar */
 #wrapper {
     padding-left: 200px;
     transition: all 0.4s ease 0s;
@@ -58,7 +55,28 @@
     padding:4px;
 }
 
+#sidebar-btn{
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.7em;
+    border-bottom: black solid 1px;
+    height: 6vh;
+    padding-left:10px;
+}
   
+#sidebar-btn a{
+    color:white;
+    vertical-align: center;
+    transition: all 0.4s ease 0s;
+    vertical-align: middle;
+    line-height: 30px;
+}
+
+.dynamic-text{
+        display:none
+}
+/* media bs that no one ACTUALLY enjoys. */
+
+
 @media (max-width:1023px) {
     #wrapper {
       padding-left: 0;
@@ -78,26 +96,15 @@
     .pushed{
       transition: all 0.4s ease 0s;
     }
-    .pusher{
+    .dynamic-text{
+        display:inline-block;
+        position: absolute;
+        color:white;
+        padding:10px 15px 10px 15px;
+        text-align:left;
+        font-size:25px;
     }
   }
-
-
-#sidebar-btn{
-    font-family: 'Oswald', sans-serif;
-    font-size: 1.7em;
-    border-bottom: black solid 1px;
-    height: 6vh;
-    padding-left:10px;
-}
-
-#sidebar-btn a{
-    color:white;
-    vertical-align: center;
-    transition: all 0.4s ease 0s;
-    vertical-align: middle;
-    line-height: 30px;
-    }
 
 
 @media (max-height:573px){
@@ -108,3 +115,5 @@
 
     }
   }
+
+/* end sidebar */
