@@ -100,9 +100,10 @@
         display:inline-block;
         position: absolute;
         color:white;
-        padding:10px 15px 10px 15px;
+        padding:10px 15px;
         text-align:left;
         font-size:25px;
+        width:auto;
     }
   }
 
