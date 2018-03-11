@@ -17,25 +17,6 @@
 }
 
 
-div.wbar{
-    height:50px;
-    width:100vw;
-    text-align: center;
-    border-bottom:black solid 1px;
-    font-family: 'Raleway', sans-serif;
-}
-
-.wbar-text {
-    display: inline-block;
-    font-family: 'Raleway', sans-serif;
-    vertical-align: middle;
-    line-height: 50px; /* <-- this is what you must define */
-    vertical-align: middle;
-    font-size: 2em;
-    color:black;
-    letter-spacing: .5em;
-}
-
 #wrapper {
     padding-left: 200px;
     transition: all 0.4s ease 0s;
@@ -45,7 +26,6 @@ div.wbar{
     margin-left: -200px;
     left: 200px;
     width: 200px;
-    /* background: rgb(248, 248, 248); */
     background: rgba(113, 10, 20, 1);
     position: fixed;
     height: 100%;
@@ -67,8 +47,19 @@ div.wbar{
     margin: 0;
     padding: 0;
   }
+
+.pushed{
+    transition: all 0.4s ease 0s;
+
+}
+
+.pusher{
+    transition: all 0.4s ease 0s;
+    padding:4px;
+}
+
   
-@media (max-width:767px) {
+@media (max-width:1023px) {
     #wrapper {
       padding-left: 0;
     }
@@ -83,6 +74,11 @@ div.wbar{
       left: 200px;
       width: 200px;
       transition: all 0.4s ease 0s;
+    }
+    .pushed{
+      transition: all 0.4s ease 0s;
+    }
+    .pusher{
     }
   }
 
@@ -112,5 +108,3 @@ div.wbar{
 
     }
   }
-
- 
