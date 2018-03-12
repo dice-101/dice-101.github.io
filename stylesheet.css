@@ -1,9 +1,8 @@
 /* header bs, you know the deal */
 
-html{
+body{
     height:100%;
     transition: all 0.4s ease 0s;
-
 }
 
 .header {
