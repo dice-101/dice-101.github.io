@@ -7,14 +7,14 @@ $(document).ready(function(){
             $("#sidebar-wrapper").css('left', '200px');
             $("#sidebar-wrapper").css('margin-left', '-200px;');
             $("#sidebar-wrapper").css('width', '200px;');
-            $("html").css('background-color', 'rgba(67, 67, 67, .49)');
+            $("#page-content-wrapper").css('background-color', 'rgba(67, 67, 67, .49)');
         }
         else{
             $("#wrapper").css('padding-left', '0px');
             $("#sidebar-wrapper").css('left', '0px');
             $("#sidebar-wrapper").css('margin-left', '200px;');
             $("#sidebar-wrapper").css('width', '0px;');
-            $("html").css('background-color', '#FFF');
+            $("#page-content-wrapper").css('background-color', '#FFF');
         }
     });
 });
